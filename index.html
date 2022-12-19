@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="shortcut icon" href="./img/senha-icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <main>
+        <p id="text-principal">Gerador de <span>Senha</span></p>
+        <input id="inputPasswordId" type="text">
+
+        <div>
+            <input id="inputLengthId" type="range" min="6" max="24">
+            <label for="inputLengthId"></label>
+        </div>
+        <div>
+            <input id="letraMinusid" type="checkbox">
+            <label for="letraMinusid">Letras minúsculas</label>
+        </div>
+        <div>
+            <input id="letraMaiusid" type="checkbox">
+            <label for="letraMaiusid">Letras maiúsculas</label>
+        </div>
+        <div>
+            <input id="numerosId" type="checkbox">
+            <label for="numerosId">Números</label>
+        </div>
+        <div>
+            <input id="simbolosId" type="checkbox">
+            <label for="simbolosId">Símbolos</label>
+        </div>
+
+        <button id="btnGerar">Gerar</button>
+    </main>
+
+    <script src="./js/script.js"></script>
+
+
+    <script src="path/to/particles.min.js"></script>
+</body>
+
+</html>

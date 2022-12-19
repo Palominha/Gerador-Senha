@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-size: x-large;
+}
+
+
+:root{
+    --roxo:#59065F;
+    --roxinho:#603463;
+    --roxo-claro:#ac0eb8;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/bg-fundo.png);
+}
+
+main {
+    padding: 20px;
+    box-shadow: 0 1px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#text-principal{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#text-principal span{
+    font-weight: 800;
+    color:var(--roxo-claro);
+}
+
+main>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    padding: 5px;
+    outline: none;
+    border: 1px solid var(--roxo-claro);
+    border-radius:6px;
+}
+
+input {
+    accent-color: var(--roxo-claro);
+    border-color: var(--roxo-claro);
+}
+
+input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+}
+
+input[type=range] {
+    width: 90%;
+}
+
+button {
+    background-color: var(--roxo-claro);
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+    transition: .5s ease;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid var(--roxo-claro);
+    box-shadow: 0 0 10px 0 var(--roxo-claro) inset,
+        0 0 10px 4px var(--roxo-claro);
+    border-radius: 10px;
+    color: var(--roxo-claro);
+}
